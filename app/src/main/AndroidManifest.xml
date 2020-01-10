@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".agreement.Safety"></activity>
+        <activity android:name=".agreement.AdPostingRule"></activity>
+        <activity android:name=".agreement.Safety" />
         <activity android:name=".agreement.Terms" />
         <activity android:name=".Register" />
         <activity android:name=".SplashActivity" />

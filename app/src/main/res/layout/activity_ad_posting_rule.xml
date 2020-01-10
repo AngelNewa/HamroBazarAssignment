@@ -6,11 +6,13 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
-    tools:context=".agreement.Terms">
+    tools:context=".agreement.AdPostingRule">
 
     <WebView
-        android:id="@+id/webViewTerms"
+        android:id="@+id/webViewAdPosting"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        />
+
 
 </LinearLayout>
