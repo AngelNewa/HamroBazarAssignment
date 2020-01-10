@@ -18,6 +18,14 @@ import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.hamrobazarassignment.agreement.Terms;
+import com.example.hamrobazarassignment.api.UsersAPI;
+import com.example.hamrobazarassignment.model.User;
+import com.example.hamrobazarassignment.serverresponse.serverresponse.ImageResponse;
+import com.example.hamrobazarassignment.serverresponse.serverresponse.SignUpResponse;
+import com.example.hamrobazarassignment.strictmode.StrictModeClass;
+import com.example.hamrobazarassignment.url.Url;
+
 import java.io.File;
 import java.io.IOException;
 

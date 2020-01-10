@@ -14,7 +14,10 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.Toolbar;
 
+import com.example.hamrobazarassignment.adapters.CategoryAdapter;
 import com.example.hamrobazarassignment.adapters.ImageSliderAdapter;
+import com.example.hamrobazarassignment.adapters.ProductAdapter;
+import com.example.hamrobazarassignment.model.Products;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -50,11 +53,6 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-
-
-
-
-
 
         viewPager = findViewById(R.id.imageSlider);
 

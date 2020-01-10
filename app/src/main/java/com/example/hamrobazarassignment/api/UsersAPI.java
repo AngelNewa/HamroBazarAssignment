@@ -1,5 +1,9 @@
 package com.example.hamrobazarassignment.api;
 
+import com.example.hamrobazarassignment.model.User;
+import com.example.hamrobazarassignment.serverresponse.serverresponse.ImageResponse;
+import com.example.hamrobazarassignment.serverresponse.serverresponse.SignUpResponse;
+
 import okhttp3.MultipartBody;
 import retrofit2.Call;
 import retrofit2.http.Body;
